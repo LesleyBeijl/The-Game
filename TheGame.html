@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+	<body>
+		<script>
+			alert("Welkom Gamer, ik zie dat je mijn game wilt uitproberen? Uitstekend! Nou laten we dan maar eens beginnen.");
+
+			alert("Ontwaak Held!");
+			alert("Je bent in een honderd jaar lange slaap geweest toen Stefano de verschrikkelijke en zijn leger je versloegen. Ik heb een spreuk op je geroepen zodat je lichaam kon herstellen van het gevecht.");
+			alert("Mijn naam is Lesley, Ik was de koning van dit land maar Stefano de verschrikkelijke was te sterk voor mij, waarschijnlijk herinner je je dit niet meer door de spreuk, jouw taak is om de wereld te redden en Stefano te verslaan.");
+
+			var pijlenboog_zwaardenschild = prompt("Kies een wapen, pijl en boog of zwaard en schild?");
+			pijlenboog_zwaardenschild = pijlenboog_zwaardenschild.toLowerCase();
+			if (pijlenboog_zwaardenschild == "pijl en boog"){
+				alert("Je pakt de pijl en boog en start je avontuur.");
+
+				alert("Je loopt uit de grot waarin je was ontwaakt en je ziet twee paden, linksaf het pad naar het bos Trechelleven of rechtsaf het pad naar het oude verwoeste kasteel van Lesley, welke kant ga je op?");
+
+			var pad1 = prompt("Linksaf of Rechtsaf?");
+			pad1 = pad1.toLowerCase();
+			if (pad1 == "linksaf"){
+			alert("Je neemt het pad linksaf naar het bos Trechelleven, wanneer je wat dieper in het bos bent kom je een grunt(goblin) tegen, hij ziet je en valt aan!");
+			
+			alert("De grunt valt aan en raakt je, je kan nog 2 keer geraakt worden.");
+			alert("Je schiet met je pijl en boog en raakt de grunt in zijn hoofd en de grunt valt neer en is verslagen! je krijgt je levens weer terug en word level 2.");
+
+			alert("Je loopt uit het bos en vind een kist met daarin een fluit met een blad met muzieknoten");
+			alert("Na de kist kom je een oude man tegen en hij vraagt je om zijn kip te redden van een vliegende golem. Je schiet op de golem maar het heeft geen effect, de man zegt dat je op zijn oog moet schieten.");
+			alert("Je mikt en schiet raak de kip valt maar onder de kip zit een rivier en de kip valt in het water wat doe je? Red je de kip of ga je verder");
+
+			var redden = prompt("Redden of Verdergaan");
+			redden = redden.toLowerCase();
+			if (redden == "redden"){
+				alert("Je springt achter de kip aan in het water en gooit de kip naar de man. De man gooit snel een XP drankje naar je en schreeuwt: DANKJEWEL, DOOR DIT DRANKJE WORD JE EEN HOGER LEVEL!!!");
+
+				alert("Je drinkt het drankje en word level 5! Je word door de stroming van de rivier naar het kasteel van Stefano gebracht.");
+
+				alert("Je sluipt door het kasteel naar Stefano's troonzaal en daar zit Stefano.");
+				alert("Je besluit om een schot te nemen en schiet recht op Stefano's hoofd en vermoord hem! je word level 7 en red de werel.....");
+			
+				alert("Je draait je om en daar staat Stefano. Hij steekt een mes in je maag en giet snel over je wond vergif heen! je gaat dood door het gif GAME OVER");
+				document.write("GAME OVER     Het is niet slim om op alles te schieten als je iets ziet!");
+			}
+
+			else if (redden == "verdergaan"){
+				alert("Je rent weg van de man en loopt verder en komt een groot kasteel tegen en rent snel naar binnen");
+
+				alert("Je kijkt om je heen in het kasteel en ziet allemaal schilderijen van Stefano de verschrikkelijke en je realiseert je dat je in het kasteel bent van Stefano!!! je probeert snel weg te komen maar opeens .......");
+				alert("Je loopt op een tegel die naar beneden zakt? Oh nee een val luik! Je valt");
+				alert(" En valt");
+				alert(" En valt");
+				alert(" En valt");
+				alert(" En valt............");
+				alert("Totdat je ineens licht ziet? Je valt neer op de grond en gaat dood. GAME OVER!!!");
+
+				document.write("GAME OVER     loop volgende keer niet zomaar ergens in zonder dat je het weet!");
+
+			}
+
+
+
+			}
+
+			else if (pad1 == "rechtsaf"){
+				alert("Je neemt het pad rechtsaf naar het oude kasteel van Lesley je loopt naar binnen en ziet een schatkist maar die word bewaakt door een bokoblin met een zwaard, je valt aan want je wilt de schatkist.");
+
+			alert("Je schiet op de bokoblin en raakt hem op zijn hoofd en verslaat hem in een keer! Je word level 3. Je opent de kist en vind een fluit met een blad waarop muzieknoten staan");
+
+			alert("Je loopt door naar het kasteel van Stefano en je opent de deur van het kasteel en ziet bewakers waar kies je voor langs ze sluipen of de fluit gebruiken?");
+			var sluipen = prompt("Sluipen of Fluiten");
+			sluipen = sluipen.toLowerCase();
+
+			if (sluipen == "sluipen"){
+
+				alert("Je probeert langs de bewakers te sluipen maar het zijn er teveel en ze zien je en schieten en slaan je, je gaat dood GAME OVER");
+				document.write("GAME OVER       Je sluip skills zijn nog niet goed genoeg");
+
+
+			}
+
+			else if(sluipen == "fluiten"){
+
+				alert("Je speelt de muzieknoten op de fluit en zet de tijd stil waardoor je langs de bewakers kan lopen naar Stefano");
+				alert("Je komt Stefano onderweg tegen en jullie besluiten om meteen te vechten! Je ziet twee punten om te raken zijn hoofd of zijn benen");
+				var aanval1 = prompt("Hoofd of Benen");
+				aanval1 = aanval1.toLowerCase();
+
+				if (aanval1 == "hoofd"){
+					alert("Je mikt op het hoofd van Stefano en schiet een pijl maar Stefano ontwijkt en doet hetzelfde terug maar jij ontwijkt te laat en word geraakt. GAME OVER");
+					document.write("GAME OVER    Het is niet als je een paar keer met geluk op iemands hoofd schiet dat je altijd raakt!");
+
+				}
+
+				else if (aanval1 == "benen"){
+					alert("Je schiet op de benen van Stefano en hij valt op grond. Nu is je kans om dit af te maken! Je schiet nog een keer en raakt Stefano in zijn hoofd en verslaat Stefano en word level 7!");
+
+				alert("Goed Gedaan je hebt het gewonnen! Maar je avontuur is nog niet voorbij! Stefano had een blad bij hem en daarop stond een opdracht van de andere Duistere Koningen: Arnold de Zwarte Ridder en Jan-Willem De Machtige Magiër.  WORD VERVOLGD ");
+
+				alert("Je hebt deel 1 voltooid van TheGame. Bedankt voor het spelen!");
+
+				document.write("Je Hebt Gewonnen! Eind Level:7");
+
+
+				}
+
+
+
+			}
+
+			
+			}
+
+
+
+
+			}
+			else if (pijlenboog_zwaardenschild == "zwaard en schild"){
+				alert("Je pakt het zwaard en schild en start je avontuur.");
+
+				alert("Je loopt uit de grot waarin je was ontwaakt en je ziet twee paden, linksaf het pad naar het bos Trechelleven of rechtsaf het pad naar het oude verwoeste kasteel van Lesley, welke kant ga je op?");
+
+			var pad2 = prompt("Linksaf of Rechtsaf?");
+			pad2 = pad2.toLowerCase();
+			if (pad2 == "linksaf"){
+			alert("Je neemt het pad linksaf naar het bos Trechelleven, wanneer je wat dieper in het bos bent kom je een grunt(goblin) tegen, hij ziet je en valt aan!");
+
+			alert("De grunt valt aan en raakt je, je kan nog 2 keer geraakt worden.");
+			alert("Je slaat met je zwaard twee keer en de grunt valt neer en is verslagen! je krijgt je levens weer terug en word level 2 en vind een bliksem drankje.");
+
+				
+				alert("Je hebt niks meer gevonden in het bos en vind 2 paden maar bij het ene pad zit een soort van barriere en er staat een bordje bij(Om deze sluiproute te nemen moet je level 3 of hoger zijn zo niet neem dan het andere pad).");
+
+				var levelpad4 = prompt("Welk level ben je?");
+				levelpad4 = levelpad4.toLowerCase();
+
+
+				if (levelpad4 <= "2"){
+					alert("De barriere blijft staan en je moet het normale pad nemen");
+				
+				
+				alert("Je komt aan bij het kasteel van Stefano de verschrikkelijke, Stefano had al van je gehoord en stond klaar met zijn draak om je te verslaan jullie gevecht begint!");
+
+				alert("Stefano zijn draak valt aan maar jij ontwijkt en slaat op de nek van de draak en de draak raakt gewond en valt neer. Stefano springt op je af en valt aan hij raakt je een keer en raakt 3 levens kwijt! je hebt nog maar 1 leven over. Je slaat Stefano weg en raakt hem drie keer met je zwaard.");
+
+				alert("De draak staat weer op en spuugt vuur op je je hebt drie keuzes je ontwijkt , je verdedigt met je schild, je gebruikt het bliksem drankje.");
+
+				var aanval6 = prompt("Ontwijk , Schild , Drankje");
+				aanval6 = aanval6.toLowerCase();
+
+				if (aanval6 == "ontwijk"){
+					alert("Je ontwijkt het vuur maar word als nog een beetje geraakt en je verbrand en gaat dood GAME OVER!!!");
+					document.write("GAME OVER      een draak spuugt geen vuur in een rechte lijn maar het verspreid zich best logisch");
+				}
+
+				else if (aanval6 == "schild"){
+					alert("Je gebruikt je schild om jezelf te verdedigen maar het vuur is te sterk en gaat door je schild en je verbrand en gaat dood GAME OVER!!!");
+					document.write("GAME OVER");
+
+				}
+
+				else if (aanval6 == "drankje"){
+					alert("Je drinkt het bliksem drankje en voelt ineens kracht! Je schiet met je hand een straal van bliksem door het vuur heen en raakt de draak en ook Stefano! je verslaat ze allebei en je word level 8.");
+				
+
+				alert("Goed Gedaan je hebt het gewonnen! Maar je avontuur is nog niet voorbij! Stefano had een blad bij hem en daarop stond een opdracht van de andere Duistere Koningen: Arnold de Zwarte Ridder en Jan-Willem De Machtige Magiër.  WORD VERVOLGD ");
+
+				alert("Je hebt deel 1 voltooid van TheGame. Bedankt voor het spelen!");
+
+				document.write("Je Hebt Gewonnen! Eind Level:8");
+
+			}
+
+			}
+			
+			}
+			
+			else{ (pad2 == "rechtsaf")
+				alert("Je neemt het pad rechtsaf naar het oude kasteel van Lesley je loopt naar binnen en ziet een schatkist maar die word bewaakt door een bokoblin met een zwaard, je valt aan want je wilt de schatkist.");
+
+				alert("Omdat jij als eerste aanvalt krijg je een voltreffer en gooi je de bokoblin op de grond! Je kan nu kiezen of je valt nog een keer aan of je bereid je voor op zijn aanval.");
+
+				var aanval2 = prompt("Aanvallen of Voorbereiden?");
+				aanval2 = aanval2.toLowerCase();
+
+				if (aanval2 == "aanvallen"){
+
+				alert("Je rent op de bokoblin af om hem aan te vallen maar de bokoblin staat ineens op en slaat je in een klap dood! GAME OVER!!!");
+				document.write("GAME OVER            onderschat nooit iemand als die op de grond ligt!");
+				}
+
+				else if (aanval2 == "voorbereiden"){
+				alert("De bokoblin staat ineens op valt aan maar je had je voorbereid dus blokkeer je zijn aanval met je schild en valt aan wanneer hij slaat op je schild, je verslaat de bokoblin! Je word level 3 en opent de schatkist met daarin een drankje van vuur(je weet niet wat het doet).");
+				
+				alert("Je hebt niks meer gevonden in het kasteel en vind 2 paden maar bij het ene pad zit een soort van barriere en er staat een bordje bij(Om deze sluiproute te nemen moet je level 3 of hoger zijn zo niet neem dan het andere pad).");
+
+
+				var levelpad2 = prompt("Welk level ben je?");
+				levelpad2 = levelpad2.toLowerCase();
+
+				if (levelpad2 >= "3"){
+				alert("De barriere gaat weg en je neemt de sluiproute.");
+
+				alert("Door de sluiproute kwam je stiekem in het kasteel van Stefano de verschrikkelijke terecht bij de troonzaal van Stefano waar Stefano op zijn troon zat, Stefano: Oh jij bent het ik had je hier nu nog niet verwacht maar ik ben op alles voorbereid. Stefano pakt zijn zwaard en daagt je uit! Jullie gevecht begint.");
+				
+				alert("Stefano slaat eerst en krijgt een voltreffer je verliest 4 levens en hebt er nog maar 1 over! Je slaat Stefano weg met je schild en hij valt op de grond.");
+
+				var aanval4 = prompt("Het is tijd om dit af te maken! Je ziet dat Stefano goed geraakt kan worden nu dus neem je je kans kies uit Aanvallen of Drankje.");
+				aanval4 = aanval4.toLowerCase();
+
+				if (aanval4 == "aanvallen"){
+					alert("Je valt Stefano aan maar hij steekt je met zijn zwaard neer en je gaat dood GAME OVER!!!");
+					document.write("GAME OVER       Ren volgende keer niet in iemand zijn zwaard!");
+
+
+
+
+				}
+				else if (aanval4 == "drankje"){
+					alert("Je drinkt het vuur drankje en voelt ineens kracht! Je schiet met je hand een straal van vuur op Stefano en verslaat hem en word level 6!");
+				
+
+				alert("Goed Gedaan je hebt het gewonnen! Maar je avontuur is nog niet voorbij! Stefano had een blad bij hem en daarop stond een opdracht van de andere Duistere Koningen: Arnold de Zwarte Ridder en Jan-Willem De Machtige Magiër.  WORD VERVOLGD ");
+
+				alert("Je hebt deel 1 voltooid van TheGame. Bedankt voor het spelen!");
+				document.write("Je Hebt Gewonnen! Eind Level:6");
+				}
+
+				}
+
+
+				
+
+				}
+				
+
+				}
+				
+				
+				
+			
+				}
+
+
+			
+
+
+
+
+			
+
+
+
+		</script>
+	</body>
+</html>
